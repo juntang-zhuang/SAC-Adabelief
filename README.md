@@ -12,5 +12,5 @@
 You can change ```--env Walker2d-v2``` to ```--env HalfCheetah-v2``` for different tasks
 
 ## Results
-![HalfCheetach](HalfCheetah.png)
+![HalfCheetah](HalfCheetach.png)
 ![Walker](walker2d.png)
