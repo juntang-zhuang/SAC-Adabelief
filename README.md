@@ -12,6 +12,8 @@
 You can change ```--env Walker2d-v2``` to ```--env HalfCheetah-v2``` for different tasks
 
 ## Hyper-parameters
+```eps``` for AdaBelief is 1e-12, other parameters are default as in ```adabelief-pytorch==0.1.0```
+
 |   Optimizer   |  lr | beta1 | beta2 | epsilon | weight_decay | weight_decouple | rectify     | fixed_decay | amsgrad |
 |:--------:|-----|-------|-------|---------|--------------|-----------------|-------------|---------|---------|
 | Adam    | 1e-3 | 0.9   | 0.999 | 1e-8    | 0.0        | -           | -      | -   | -   |
